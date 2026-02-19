@@ -98,7 +98,3 @@ For a test customer:
 - Joblib
 
 ---
-
-## 📂 Project Structure
-
-
