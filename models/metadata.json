@@ -1,0 +1,54 @@
+{
+  "churn_threshold": 0.4,
+  "value_threshold": 1393.6000000000001,
+  "features_churn": {
+    "num_cols": [
+      "tenure",
+      "MonthlyCharges",
+      "TotalCharges"
+    ],
+    "cat_cols": [
+      "gender",
+      "Partner",
+      "Dependents",
+      "PhoneService",
+      "MultipleLines",
+      "InternetService",
+      "OnlineSecurity",
+      "OnlineBackup",
+      "DeviceProtection",
+      "TechSupport",
+      "StreamingTV",
+      "StreamingMovies",
+      "Contract",
+      "PaperlessBilling",
+      "PaymentMethod",
+      "SeniorCitizen"
+    ]
+  },
+  "features_value": {
+    "num_cols": [
+      "tenure",
+      "MonthlyCharges"
+    ],
+    "cat_cols": [
+      "gender",
+      "Partner",
+      "Dependents",
+      "PhoneService",
+      "MultipleLines",
+      "InternetService",
+      "OnlineSecurity",
+      "OnlineBackup",
+      "DeviceProtection",
+      "TechSupport",
+      "StreamingTV",
+      "StreamingMovies",
+      "Contract",
+      "PaperlessBilling",
+      "PaymentMethod",
+      "SeniorCitizen"
+    ]
+  },
+  "data_path": "data/data.csv"
+}
